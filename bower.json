@@ -1,0 +1,13 @@
+{
+  "name": "01",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0"
+  }
+}

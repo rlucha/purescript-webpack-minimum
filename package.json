@@ -1,0 +1,22 @@
+{
+  "name": "01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node ./node_modules/webpack/bin/webpack.js --config ./config/webpack.config.js -w",
+    "pure": "node ./node_modules/webpack/bin/webpack.js --config ./config/webpack.purescript.config.js -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^7.1.2",
+    "babili-webpack-plugin": "^0.1.2",
+    "purescript-psa": "^0.5.1",
+    "purs-loader": "^3.1.2",
+    "webpack": "^3.8.1",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dashboard": "^1.0.0"
+  }
+}
