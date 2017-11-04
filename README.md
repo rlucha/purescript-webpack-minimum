@@ -1,6 +1,6 @@
 Assumes globally installed purescript and bower
 
-#Install
+# Install
 ```
 npm install & bower install
 ```
